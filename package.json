@@ -1,10 +1,10 @@
 {
-  "name": "ckeditor5-custom-build",
-  "author": "CKSource",
+  "name": "ckeditor5-build-ballooon",
+  "author": "Haibui via CKSource online builder",
   "description": "A custom CKEditor 5 build made by the CKEditor 5 online builder.",
   "version": "0.0.1",
   "license": "SEE LICENSE IN LICENSE.md",
-  "private": true,
+  "private": false,
   "main": "./build/ckeditor.js",
   "devDependencies": {
     "@ckeditor/ckeditor5-basic-styles": "^26.0.0",
@@ -32,5 +32,12 @@
   },
   "scripts": {
     "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/haibui2207/ckeditor5-build-balloon.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/rinbui2207"
   }
 }
