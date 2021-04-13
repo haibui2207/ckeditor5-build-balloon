@@ -69,8 +69,14 @@ Not yet, but it these integrations will be available at some point in the future
 
 # npm publish
 
+`.npmrc`
 ```bash
     strict-ssl=false
     @<NPM_USERNAME>:registry=https://npm.pkg.github.com
     //npm.pkg.github.com/:_authToken=<GITHUB_TOKEN>
+```
+
+command
+```bash
+   npm publish --access public
 ```
